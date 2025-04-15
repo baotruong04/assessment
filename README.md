@@ -127,44 +127,5 @@ SEA will teach you frameworks later—stick to **vanilla HTML, CSS, and JS** for
 APIs can add complexity beyond the scope of this challenge.  
 If you really want to use data from an API, **save it to a file** (like `.json` or `.csv`) and use that instead.
 
----
-
-# Book Catalog Website
-
-A responsive web application that displays a catalog of books with filtering, sorting, and search functionality. The data is sourced from CSV files.
-
-## Features
-
-- View a catalog of books with cover images and details
-- Search for books by title or author
-- Filter books by year range
-- Sort books by title, author, year, or rating
-- Responsive design for desktop and mobile devices
-
-## Technologies Used
-
-- HTML, CSS, JavaScript
-- CSV data processing
-- Asynchronous data loading
-
-## Data
-
-The application uses data from three CSV files:
-- books.csv: Contains book information (title, author, year, etc.)
-- ratings.csv: Contains user ratings for books
-- users.csv: Contains user information
-
-## How it Works
-
-1. The application loads data from CSV files when the page is loaded
-2. Data is processed and displayed as book cards
-3. Users can interact with the interface to filter, sort, and search the book collection
-4. For performance reasons, only a subset of the data is displayed
-
-## Live Demo
-
-You can view the live site at: https://baotruong04.github.io/assessment/
-
----
 
 > 💬 **Have any questions?** Drop them on the [Padlet here](https://padlet.com/arlenschallenge/2025-snap-engineering-academy-stage-2-project-assessment-que-ndmqkef3wxt8sh72) and we'll get back to you!
